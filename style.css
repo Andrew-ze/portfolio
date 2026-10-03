@@ -98,7 +98,9 @@ section {
     font-weight: 600;
     color: black;
     padding: 6px 14px;
-
+}
+.nav-links.active {
+    display: flex
 }
 
 .log {
@@ -448,3 +450,16 @@ h2 {
         grid-template-columns: 1fr;
     }
 }
+
+.nav-toggle {
+  display: none; /* Hidden on desktop */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile styles (screens narrower than 768px) */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block; /* Show hamburger button */
+  }
