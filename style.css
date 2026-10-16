@@ -23,7 +23,7 @@ body {
     radial-gradient(ellipse at 95% 20%, rgba(92, 242, 194, .07), transparent 28rem),
     var(--bg);
   color: var(--text);
-  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-family: "Times New Roman", system-ui, sans-serif;
   line-height: 1.7;
 }
 body::before {
